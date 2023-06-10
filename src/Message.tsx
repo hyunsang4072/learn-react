@@ -1,7 +1,7 @@
 // .ts == plain TypeScript
 // .tsx == react components
 
-// PascalCasing: capitalizing every word
+// PascalCasing: capitalizing each word
 function Message() {
     const name = 'Harry';
     // JSX: JavaScript XML
