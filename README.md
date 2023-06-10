@@ -12,6 +12,11 @@ npm list	Lists the installed versions of all dependencies in this software
 npm update	Update production packages  
 npm update --dev	Update dev packages  
 npm update -g	Update global packages  
+npm install -g npm@latest    Update npm  
+npm -v    Get npm version  
+npm init    Create package.json  
+npm root -g    Find Root Folder  
+npm start    Only "package.json" fill execute  
 
 # Library vs. FrameWork
 Library: a tool that provides specific functionality  
