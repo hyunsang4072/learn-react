@@ -87,5 +87,4 @@ statements
 
 # Progress
 
-Tutorial: https://www.youtube.com/watch?v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh  
-Time Stamp: 44:44
+Tutorial: https://www.youtube.com/watch?v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh
