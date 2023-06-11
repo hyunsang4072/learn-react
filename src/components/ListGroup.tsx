@@ -3,9 +3,12 @@ import { useState } from "react";
 interface Props {
   items: string[];
   heading: string;
+
+  // (item: string) => void
+  onSelectItem: (item: string) => void;
 }
 
-function ListGroup({ items, heading }: Props) {
+function ListGroup({ items, heading, onSelectItem }: Props) {
   // items = [];
 
   // Hooks : let you use state and other React features without writing a class
@@ -27,6 +30,7 @@ function ListGroup({ items, heading }: Props) {
             // onClick = mouseClick
             onClick={() => {
               setSelectedIndex(index);
+              onSelectItem(item);
             }}
           >
             {item}
