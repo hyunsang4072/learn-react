@@ -1,8 +1,9 @@
 // import ListGroup from "./components/ListGroup";
-import Alert from "./components/Alert";
+// import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 function App() {
-  const items = ["New York", "San Francisco", "Korea", "London", "Greece"];
+  // const items = ["New York", "San Francisco", "Korea", "London", "Greece"];
 
   // const handleSelectItem = (item: string) => {
   //   console.log(item);
@@ -17,12 +18,19 @@ function App() {
   //     />
   //   </div>
   // );
+
+  // return (
+  //   <div>
+  //     {/* <Alert text="Don't Click This!" /> */}
+  //     <Alert>
+  //       <h1>Don't Click This!</h1>
+  //     </Alert>
+  //   </div>
+  // );
+
   return (
     <div>
-      {/* <Alert text="Don't Click This!" /> */}
-      <Alert>
-        <h1>Don't Click This!</h1>
-      </Alert>
+      <Button onClick={() => console.log("Click")}>Don't Click</Button>
     </div>
   );
 }

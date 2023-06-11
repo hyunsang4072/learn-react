@@ -56,6 +56,7 @@ FrameWork: a set of tools and guidelines for building apps
 # Prop(or Properties)
 
 - interface Prop { children: ReactNode }
+- you can add ? to let typeScript know that specific prop is optional(has a default value)
 
 # ReactNode (defined in react module)
 
