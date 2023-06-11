@@ -48,6 +48,19 @@ FrameWork: a set of tools and guidelines for building apps
 - "Fragment" tags for wrapping multiple elements in one component
 - If you add empty angle brackets, we are implicitly telling React to use a fragment to wrap all of the children
 
+# Props vs. State
+
+- Props: input passed to a component; similar to args; immutable
+- State: data managed by a component; similar to local variables; mutable
+
+# Prop(or Properties)
+
+- interface Prop { children: ReactNode }
+
+# ReactNode (defined in react module)
+
+- import ReactNode and use it to pass in a complex children Prop
+
 # Conditional Statements
 
 ## if statement
